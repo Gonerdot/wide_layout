@@ -1,0 +1,14 @@
+// wide_layout.scss
+
+.main-outlet {
+  width: 1300px;
+  margin: 0 auto; /* Центрируем блок на странице */
+  max-width: 100%;
+}
+
+// Опционально, можно добавить медиа-запросы для адаптивности
+@media screen and (max-width: 1300px) {
+  .main-outlet {
+    width: 100%;
+  }
+}

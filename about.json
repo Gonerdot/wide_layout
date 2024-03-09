@@ -1,0 +1,14 @@
+{
+  "name": "Wide Layout",
+  "about_url": "",
+  "license_url": "",
+  "component": true,
+  "url": "https://github.com/gonerdot/wide_layout",
+  "assets": {
+    "stylesheets": [
+      "stylesheets/wide_layout.scss"
+    ],
+    "javascripts": [],
+    "images": []
+  }
+}
