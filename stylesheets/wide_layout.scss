@@ -1,13 +1,13 @@
 // wide_layout.scss
 
-body.wrapper {
-  max-width: 1300px !important;
+.container.posts {
+  width: 1200px !important;
   margin: 0 auto; /* Центрируем блок на странице */
 }
 
 // Опционально, можно добавить медиа-запросы для адаптивности
-@media screen and (max-width: 1300px) {
-  body.wrapper {
+@media screen and (max-width: 1200px) {
+  .container.posts {
     width: 100% !important;
   }
 }
