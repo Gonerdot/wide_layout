@@ -1,13 +1,30 @@
 // wide_layout.scss
 
-.container.posts {
-  width: 1200px !important;
-  margin: 0 auto; /* Центрируем блок на странице */
+.home-logo-wrapper-outlet {
+  /* Установка начального размера и прозрачности */
+  width: 100px;
+  height: 100px;
+  opacity: 0.7;
+  transition: all 0.3s ease-in-out; /* Плавное изменение стилей */
+
+  /* Пульсация при наведении */
+  &:hover {
+    animation: pulse 1s infinite;
+  }
 }
 
-// Опционально, можно добавить медиа-запросы для адаптивности
-@media screen and (max-width: 1200px) {
-  .container.posts {
-    width: 100% !important;
+/* Анимация пульсации */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.7;
   }
 }
